@@ -64,3 +64,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Notes
+- You need to generate "Vendor" folder using command in cmd/terminal -> "composer dump-autoload"
+- You need to make the .env folder over the .env.example
+- The database should named "task" and you need just to create it then run ( php artisan migrate )
+- You need to run ( npm run dev ) to use the pages
+- I used the Vite and NPM, used the Bootstrap built from Laravel it self ( php artisan laravel/ui )
+- Used the Laravel auth system ( php artisan ui:auth )
+- Implemented the Passport Package
+- Used a basic design because you didn't provide a specific design
+- Login/Register Systems works correctly
+- There is a buttons after login that can help you to access the required pages and routes
+- I can make the project looks more better 100% than this but i prefer to follow up the instructions you provided
+- Maybe you sholud some weeknes in the API that because i don't have a lot experince in it and also the passport, but I'm a good, quick learner and i can deal with any thing and i can solve, search, use the internet for making a step forword, trust me.
+- In the form page you can some tricks like the auto-fill if the user is authinticated.
